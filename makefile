@@ -27,4 +27,4 @@ uninstall:
 	rm -rf $(SHAREDIR)/$(APP)
 
 clean:
-	rm *.o && rm $(EXE)
+	rm src/*.o && rm $(EXE)
